@@ -10495,6 +10495,19 @@ background-color: #00ac81;
   /* border: 1px solid red; */
 }
 
+.image-wrapper{
+  padding-top: 5%;
+}
+
+
+.image-wrapper img{
+  /* border: 1px solid red; */
+  width: 60%;
+  margin: auto;
+  /* display: flex; */
+  /* justify-content: center; */
+}
+
 .image-wrapper p{
   font-weight: bolder;
   text-align: center;
@@ -10507,6 +10520,7 @@ background-color: #00ac81;
   position: relative;
   top: -100px;
   /* opacity: 0.8; */
+  
 }
 .women-sub-image p{
   font-weight: bold;
@@ -10542,6 +10556,7 @@ text-align: center;
 .text-wrapper{
   width: 50%;
   margin-top: 4%;
+  /* border: 1px solid red; */
 }
 .text-wrapper div{
   background-color: #00c79f;
