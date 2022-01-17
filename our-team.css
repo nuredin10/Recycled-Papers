@@ -1,0 +1,144 @@
+.team-text{
+    /* display: inline-block; */
+    /* border: 1px solid #ff0000; */
+    width: 100%;
+    height: 100%;
+    margin: 0 auto;
+    /* margin-top: 16%; */
+    /* margin-bottom: 10%; */
+    background: linear-gradient(
+        rgba(0, 0 ,0 ,0.2),
+        rgba(0, 0, 0, 0.2)
+    ), url('./our-team.jpg');
+    background-size: 100% 100%;
+    margin-top: 50px;
+}
+.team-text h1{
+    text-align: center;
+    font-weight: 400;
+    font-size: 400%;
+    /* margin-bottom: 40%; */
+    color: white;
+    margin: auto;
+    /* margin-top: 20px; */
+    position: relative;
+    top: 250px;
+}
+.team-text::after{
+        content: '';
+        display: none;
+        width: 70%;
+        height: 10px;
+        background: #28eaba;
+        position: absolute;
+        top: 723px;
+        left: 15%;
+    
+}
+@media (max-width: 800px) {
+    .team-text::after{
+        display: none;
+    }
+}
+.team-text p{
+    text-align: center;
+}
+.team-images div{
+    margin: auto;
+}
+.team-images{
+    width: 70%;
+    margin: auto;
+    
+    margin-top: -20px;
+    /* margin-bottom: 10%; */
+    /* border: 1px solid red; */
+}
+.team-images-2{
+    display: flex;
+    /* margin-bottom: 20%; */
+    padding-bottom: 7%;
+    flex-wrap: wrap;
+    /* border: 1px solid red; */
+}
+
+.team-images img{
+    margin: 23px;
+}
+.team-images p{
+    text-align: center;
+}
+.team-one{
+    /* border: 1px solid red; */
+    width: 50%;
+}
+@media (max-width: 769px) {
+    .team-text{
+        /* border: 1px solid red; */
+        width: 100%;
+        /* margin-top: 5%; */
+        margin-bottom: 10%;
+        height: 78vh;
+        margin-top: -79px;
+        
+    }
+    .team-text h1{
+        margin-top: 30%;
+        /* border: 1px solid red; */
+    }
+    .team-text::after{
+        content: '';
+        display: none;
+        width: 70%;
+        height: 10px;
+        background: #28eaba;
+        position: absolute;
+        top: 695px;
+        left: 15%;
+    
+}
+.team-images{
+    /* border: rgb(7, 7, 7) 1px solid; */
+    width: 100%;
+    /* margin-top: 30%; */
+}
+.team-images div{
+    /* border: 1px solid red; */
+    width: 100%;
+    /* margin: auto; */
+}
+.team-images-2{
+    /* border: 1px solid red; */
+    width: 100%;
+}
+.team-images-2 div{
+    width: 50%;
+}
+.team-text{
+    background: linear-gradient(
+        rgba(0, 0 ,0 ,0.2),
+        rgba(0, 0, 0, 0.2)
+    ), url('./main-page-images/our-team-mobile.jpg');
+}
+}
+
+.our-team-name{
+/* border: 1px solid red; */
+margin-bottom: 0%;
+}
+
+@media (min-width: 1000px) {
+    .ceo{
+        position: relative;
+        top: 10px;
+        /* border: 1px solid red; */
+    }
+    .one{
+        position: relative;
+        left: 110px;
+    }
+    .two{
+        position: relative;
+        left: -110px;
+    }
+}
