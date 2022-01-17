@@ -10561,8 +10561,9 @@ text-align: center;
   margin: auto;
 }
 .perfect-text{
-  margin-top: 3%;
-  margin-bottom: 2%;
+  margin-top: -2%;
+  /* margin-bottom: 7%; */
+  /* border: 1px solid red; */
 }
 .perfect-set-wrapper{
   width: 80%;
