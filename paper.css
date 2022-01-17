@@ -10617,6 +10617,8 @@ text-align: center;
   width: 20%;
   float: left;
   /* background-color: ; */
+  position: relative;
+  top: 1%;
 }
 .collection{
   display: inline;
