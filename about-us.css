@@ -173,7 +173,7 @@ body{
         background: linear-gradient(
         rgba(0, 0 ,0 ,0.3),
         rgba(0, 0, 0, 0.3)
-    ), url('./main-page-images/about-us-mobile.jpg');
+    ), url('./main-page-images/about-us.jpg');
     }
     
     
@@ -193,7 +193,7 @@ body{
 }
 @media (max-width: 800px) {
     .about-us-head-image::after{
-        top: 510px;
+        top: 590px;
     }
 }
 .about-us-heading-title{
@@ -302,7 +302,7 @@ body{
     margin: auto;
     /* border: 1px solid red; */
     position: relative;
-    top: 300px;
+    top: 535    px;
     display: flex;
     /* justify-content: center; */
     
@@ -381,7 +381,7 @@ body{
 }
 .white-middle-text{
     width: 75%;
-
+    margin-top: 25%;
 }
 @media (min-width: 1000px) {
     .dapackaging-text{
@@ -419,6 +419,11 @@ body{
         /* background-color: red; */
         position: relative;
         top: 50px;
+    }
+    .title{
+        position: relative;
+        top: 100%;
+        /* margin-top: 400%; */
     }
 }
 
